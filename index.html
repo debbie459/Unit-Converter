@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="top-part">
+            <h3>Unit Conversion</h3>
+            <div class="input-area"><p>Enter a value:</p><input type="text" id="input-el"></div>
+            <button id="convert-btn">Convert</button>
+        </div>
+
+        <div id="bottom-part">
+            <div class="box">
+                <h4>Length (Meter/Feet)</h4>
+                <p><span id="meter-el-1">1</span > meter = <span id="meter-el-2">3.281</span> feet</p>
+                <p><span id="feet-el-1">1 </span>feet = <span id="feet-el-2">0.304</span>meters</p>
+            </div>  
+            
+            <div class="box">
+                <h4>Volume (Liters/Gallons)</h4>
+                <p><span id="liter-el-1">1</span> liter =  <span id="liter-el-2">0.264</span> gallons</p>
+                <p><span id="gallon-el-1">1</span> gallon = <span id="gallon-el-2">3.789</span> liters</p>
+
+            </div>
+                
+            <div class="box">
+                <h4>Mass (Kg/Pounds)</h4>
+                <p><span id="kilo-el-1">1</span> kilo = <span id="kilo-el-2">2.204</span> pounds </p>
+                <p><span id="pound-el-1">1</span> pound = <span id="pound-el-2">0.454</span> kilos</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: whitesmoke; 
+    font-family: "Inter", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+    max-width: 700px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.top-part{
+    background-color: #6943FF;
+    color: white;
+    height: 40%;
+    width: 100%;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    box-shadow: 0px 3px 4px 3px lightgray;
+}
+
+.top-part h3{
+    font-size: 25px;
+}
+
+.input-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.input-area p{
+    font-size: 20px;
+    margin-right: 10px;
+    /* margin-top: 7px; */
+}
+
+#input-el{
+    /* width: 50%; */
+    padding: 10px;
+    width: 20%;
+    border: 2px solid pink;
+    background-color: #6943FF;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#convert-btn{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(247, 163, 224);
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+    /* padding: 20px 50px; */
+}
+
+
+
+
+
+#bottom-part{
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 4px 3px lightgray;
+
+}
+
+.box{
+    width: 90%;
+    background-color: white;
+    color: #353535;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 3px lightgray;
+}
+
+.box h4{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.box p{
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.box span{
+    border: 1px solid pink;
+    width: 5px;
+    padding: 3px;
+    margin-right: 5px;
+}
